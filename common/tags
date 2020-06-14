@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	color.h	12;"	d
+BLUE	color.h	20;"	d
+Ctrl	datatype.h	/^struct Ctrl {$/;"	s
+DBG	common.h	18;"	d
+DBG	common.h	20;"	d
+FT_ACK	datatype.h	58;"	d
+FT_FIN	datatype.h	59;"	d
+FT_MSG	datatype.h	57;"	d
+FT_TEST	datatype.h	55;"	d
+FT_WALL	datatype.h	56;"	d
+FootBallMsg	datatype.h	/^struct FootBallMsg {$/;"	s
+GREEN	color.h	16;"	d
+HEAD_H	head.h	9;"	d
+L_BLACK	color.h	13;"	d
+L_BLUE	color.h	21;"	d
+L_GREEN	color.h	17;"	d
+L_PINK	color.h	22;"	d
+L_RED	color.h	15;"	d
+L_YELLOW	color.h	19;"	d
+LogRequest	datatype.h	/^struct LogRequest{$/;"	s
+LogResponse	datatype.h	/^struct LogResponse{$/;"	s
+MAX	heart_beat.c	11;"	d	file:
+MAX	server_exit.c	10;"	d	file:
+MAX	sub_reactor.c	11;"	d	file:
+MAX	udp_epoll.c	13;"	d	file:
+MAXMSG	datatype.h	10;"	d
+MAXTASK	thread_poll.h	11;"	d
+MAXTASK	thread_pool.h	11;"	d
+MAXTHREAD	thread_poll.h	12;"	d
+MAXTHREAD	thread_pool.h	12;"	d
+MAX_CLIENT	chatroom.h	44;"	d
+Map	datatype.h	/^struct Map {$/;"	s
+Msg	chatroom.h	/^struct Msg {$/;"	s
+NONE	color.h	11;"	d
+PINK	color.h	23;"	d
+Point	datatype.h	/^struct Point{$/;"	s
+RED	color.h	14;"	d
+RecvMsg	chatroom.h	/^struct RecvMsg {$/;"	s
+TransMsg	datatype.h	/^struct TransMsg{$/;"	s
+User	datatype.h	/^struct User{$/;"	s
+YELLOW	color.h	18;"	d
+_CHATROOM_H	chatroom.h	9;"	d
+_CLIENT_RECVER_H	client_recver.h	9;"	d
+_COLOR_H	color.h	9;"	d
+_COMMON_H	common.h	9;"	d
+_DATATYPE_H	datatype.h	9;"	d
+_GLOBAL_H	global.h	9;"	d
+_HEART_BEAT_H	heart_beat.h	9;"	d
+_SERVER_EXIT_H	server_exit.h	9;"	d
+_SUB_REACTOR_H	sub_reactor.h	9;"	d
+_TCP_CLIENT_H	tcp_client.h	9;"	d
+_TCP_CLIENT_H	udp_client.h	9;"	d
+_TCP_SERVER_H	tcp_server.h	9;"	d
+_TCP_SERVER_H	udp_server.h	9;"	d
+_THREAD_POOL_H	thread_poll.h	9;"	d
+_THREAD_POOL_H	thread_pool.h	9;"	d
+_UDP_EPOLL_H	udp_epoll.h	9;"	d
+add_event	udp_epoll.c	/^void add_event(int epollfd, int fd, int events){$/;"	f
+add_event_ptr	udp_epoll.c	/^void add_event_ptr(int epollfd, int fd, int events, struct User *user){$/;"	f
+add_to_sub_reactor	udp_epoll.c	/^void add_to_sub_reactor(struct User *user) {$/;"	f
+carry	datatype.h	/^    int carry;$/;"	m	struct:Ctrl
+chat_recv	chatroom.h	/^struct RecvMsg chat_recv(int fd) {$/;"	f
+chat_send	chatroom.h	/^int chat_send(struct Msg msg, int fd) {$/;"	f
+check_online	udp_epoll.c	/^int check_online(struct LogRequest *request) {$/;"	f
+client_recv	client_recver.c	/^void *client_recv(void *arg) {$/;"	f
+cond	thread_poll.h	/^    pthread_cond_t cond;$/;"	m	struct:task_queue
+cond	thread_pool.h	/^    pthread_cond_t cond;$/;"	m	struct:task_queue
+conf_ans	global.c	/^char conf_ans[50] = {0};$/;"	v
+ctrl	datatype.h	/^    struct Ctrl ctrl;$/;"	m	struct:TransMsg	typeref:struct:TransMsg::Ctrl
+del_event	udp_epoll.c	/^void del_event(int epollfd, int fd) {$/;"	f
+dirx	datatype.h	/^    int dirx;$/;"	m	struct:TransMsg
+diry	datatype.h	/^    int diry;$/;"	m	struct:TransMsg
+do_echo	thread_poll.c	/^void do_echo(struct User *user) {$/;"	f
+do_echo	thread_pool.c	/^void do_echo(struct User *user) {$/;"	f
+epollfd	thread_poll.h	/^    int epollfd;$/;"	m	struct:task_queue
+epollfd	thread_pool.h	/^    int epollfd;$/;"	m	struct:task_queue
+fd	datatype.h	/^    int fd;$/;"	m	struct:User
+find_sub	udp_epoll.c	/^int find_sub(struct User *team) {$/;"	f
+flag	chatroom.h	/^    int flag;$/;"	m	struct:Msg
+flag	datatype.h	/^    int flag; \/\/ 未响应次数$/;"	m	struct:User
+from	chatroom.h	/^    char from[20];$/;"	m	struct:Msg
+gate_heigth	datatype.h	/^    int gate_heigth;$/;"	m	struct:Map
+gate_width	datatype.h	/^    int gate_width;$/;"	m	struct:Map
+get_value	common.c	/^char *get_value(char *path, char *key) {$/;"	f
+head	thread_poll.h	/^    int head;$/;"	m	struct:task_queue
+head	thread_pool.h	/^    int head;$/;"	m	struct:task_queue
+heart_beat	heart_beat.c	/^void *heart_beat(void *arg) {$/;"	f
+heart_beat_team	heart_beat.c	/^void heart_beat_team(struct User *team) {$/;"	f
+heigth	datatype.h	/^    int heigth;$/;"	m	struct:Map
+kick	datatype.h	/^    int kick;$/;"	m	struct:Ctrl
+loc	datatype.h	/^    struct Point loc;$/;"	m	struct:User	typeref:struct:User::Point
+main	test.c	/^int main() {$/;"	f
+make_block	common.c	/^void make_block(int fd) {$/;"	f
+make_block_ioctl	common.c	/^void make_block_ioctl(int fd) {$/;"	f
+make_nonblock	common.c	/^void make_nonblock(int fd) {$/;"	f
+make_nonblock_ioctl	common.c	/^void make_nonblock_ioctl(int fd){$/;"	f
+message	chatroom.h	/^    char message[512];$/;"	m	struct:Msg
+msg	chatroom.h	/^    struct Msg msg;$/;"	m	struct:RecvMsg	typeref:struct:RecvMsg::Msg
+msg	datatype.h	/^    char msg[512];$/;"	m	struct:LogRequest
+msg	datatype.h	/^    char msg[512];$/;"	m	struct:LogResponse
+msg	datatype.h	/^    char msg[MAXMSG];$/;"	m	struct:FootBallMsg
+mutex	thread_poll.h	/^    pthread_mutex_t mutex;$/;"	m	struct:task_queue
+mutex	thread_pool.h	/^    pthread_mutex_t mutex;$/;"	m	struct:task_queue
+name	datatype.h	/^    char name[20];$/;"	m	struct:LogRequest
+name	datatype.h	/^    char name[20];$/;"	m	struct:User
+online	datatype.h	/^    int online;$/;"	m	struct:User
+retval	chatroom.h	/^    int retval;$/;"	m	struct:RecvMsg
+server_exit	server_exit.c	/^void server_exit(int signum) {$/;"	f
+size	datatype.h	/^    int size;$/;"	m	struct:FootBallMsg
+socket_connect	tcp_client.c	/^int socket_connect(char *host, int port) {$/;"	f
+socket_create	tcp_server.c	/^int socket_create(int port) {$/;"	f
+socket_create_udp	udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_udp	udp_client.c	/^int socket_udp() {$/;"	f
+start	datatype.h	/^    struct Point start;$/;"	m	struct:Map	typeref:struct:Map::Point
+sub_reactor	sub_reactor.c	/^void *sub_reactor(void *arg) {$/;"	f
+sum	thread_poll.h	/^    int sum;$/;"	m	struct:task_queue
+sum	thread_pool.h	/^    int sum;$/;"	m	struct:task_queue
+tail	thread_poll.h	/^    int tail;$/;"	m	struct:task_queue
+tail	thread_pool.h	/^    int tail;$/;"	m	struct:task_queue
+task_queue	thread_poll.h	/^struct task_queue{$/;"	s
+task_queue	thread_pool.h	/^struct task_queue{$/;"	s
+task_queue_init	thread_poll.c	/^void task_queue_init(struct task_queue *taskQueue, int sum, int epollfd) {$/;"	f
+task_queue_init	thread_pool.c	/^void task_queue_init(struct task_queue *taskQueue, int sum, int epollfd) {$/;"	f
+task_queue_pop	thread_poll.c	/^struct User *task_queue_pop(struct task_queue *taskQueue) {$/;"	f
+task_queue_pop	thread_pool.c	/^struct User *task_queue_pop(struct task_queue *taskQueue) {$/;"	f
+task_queue_push	thread_poll.c	/^void task_queue_push(struct task_queue *taskQueue, struct User *user) {$/;"	f
+task_queue_push	thread_pool.c	/^void task_queue_push(struct task_queue *taskQueue, struct User *user) {$/;"	f
+team	datatype.h	/^    int team; \/\/0 RED 1 BLUE$/;"	m	struct:LogRequest
+team	datatype.h	/^    int team;$/;"	m	struct:User
+team	thread_poll.h	/^    struct User **team;$/;"	m	struct:task_queue	typeref:struct:task_queue::User
+team	thread_pool.h	/^    struct User **team;$/;"	m	struct:task_queue	typeref:struct:task_queue::User
+thread_run	thread_poll.c	/^void *thread_run(void *arg) {$/;"	f
+thread_run	thread_pool.c	/^void *thread_run(void *arg) {$/;"	f
+type	datatype.h	/^    int type; \/\/0 success 1 failed$/;"	m	struct:LogResponse
+type	datatype.h	/^    int type;$/;"	m	struct:FootBallMsg
+udp_accept	udp_epoll.c	/^int udp_accept(int epollfd, int fd, struct User *user) {$/;"	f
+udp_connect	udp_epoll.c	/^int udp_connect(int epollfd, struct sockaddr_in *serveraddr) {$/;"	f
+width	datatype.h	/^    int width;$/;"	m	struct:Map
+x	datatype.h	/^    int x;$/;"	m	struct:Point
+y	datatype.h	/^    int y;$/;"	m	struct:Point

@@ -1,0 +1,2 @@
+gcc client.c ../common/common.c ../common/udp_client.c ../common/global.c ../common/client_recver.c ../common/game.c ../common/send_chat.c -o client -lpthread -lncurses $1 $2 -Wall 
+

@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+B_events	YZD.c	/^struct epoll_event ev, events[MAX * 2], B_events[MAX], R_events[MAX];$/;"	v	typeref:struct:
+B_events	server.c	/^struct epoll_event ev, events[MAX * 2], R_events[MAX], B_events[MAX];$/;"	v	typeref:struct:
+B_queue	YZD.c	/^TaskQueue B_queue, R_queue;$/;"	v
+Football	game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+Help	game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+MAX	game.h	10;"	d
+MAX_TASK	YZD.c	30;"	d	file:
+MAX_TASK	server.c	13;"	d	file:
+MAX_THREAD	YZD.c	31;"	d	file:
+MAX_THREAD	server.c	14;"	d	file:
+Message	game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+Pth_create	YZD.c	/^void Pth_create(pthread_t *tid) {$/;"	f
+Pth_create	server.c	/^void Pth_create(pthread_t *tid) {$/;"	f
+R_events	YZD.c	/^struct epoll_event ev, events[MAX * 2], B_events[MAX], R_events[MAX];$/;"	v	typeref:struct:
+R_events	server.c	/^struct epoll_event ev, events[MAX * 2], R_events[MAX], B_events[MAX];$/;"	v	typeref:struct:
+R_queue	YZD.c	/^TaskQueue B_queue, R_queue;$/;"	v
+Score	game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+TaskQueue	YZD.c	/^} TaskQueue;$/;"	t	typeref:struct:__anon1	file:
+TaskQueueInit	YZD.c	/^void TaskQueueInit (TaskQueue *queue, int sum) {$/;"	f
+TaskQueuePop	YZD.c	/^int TaskQueuePop(TaskQueue *queue) {$/;"	f
+TaskQueuePush	YZD.c	/^void TaskQueuePush(TaskQueue *queue, int fd) {$/;"	f
+Write	game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+_GAME_H	game.h	8;"	d
+_REENTRANT	server.c	15;"	d	file:
+bepollfd	server.c	/^int repollfd, bepollfd;$/;"	v
+bteam	YZD.c	/^struct User *bteam;$/;"	v	typeref:struct:User
+bteam	server.c	/^struct User *bteam;$/;"	v	typeref:struct:User
+ch_char	YZD.c	/^char ch_char(char c) {$/;"	f
+cond	YZD.c	/^    pthread_cond_t cond;$/;"	m	struct:__anon1	file:
+conf	YZD.c	/^char *conf = ".\/server.conf";$/;"	v
+conf	server.c	/^char *conf = ".\/server.conf";$/;"	v
+court	game.h	/^struct Map court;$/;"	v	typeref:struct:Map
+court	server.c	/^struct Map court;$/;"	v	typeref:struct:Map
+create_newwin	game.h	/^WINDOW *create_newwin(int width, int heigth, int startx, int starty) {$/;"	f
+data_port	YZD.c	/^int data_port;$/;"	v
+data_port	server.c	/^int data_port;$/;"	v
+destroy_win	game.h	/^void destroy_win(WINDOW *win) {$/;"	f
+do_echo	YZD.c	/^void do_echo(int fd ) {$/;"	f
+draw	game.h	/^void *draw(void *arg) {$/;"	f
+ev	YZD.c	/^struct epoll_event ev, events[MAX * 2], B_events[MAX], R_events[MAX];$/;"	v	typeref:struct:epoll_event
+ev	server.c	/^struct epoll_event ev, events[MAX * 2], R_events[MAX], B_events[MAX];$/;"	v	typeref:struct:epoll_event
+events	YZD.c	/^struct epoll_event ev, events[MAX * 2], B_events[MAX], R_events[MAX];$/;"	v	typeref:struct:
+events	server.c	/^struct epoll_event ev, events[MAX * 2], R_events[MAX], B_events[MAX];$/;"	v	typeref:struct:
+fd	YZD.c	/^    int *fd;$/;"	m	struct:__anon1	file:
+gotoxy	game.h	/^void gotoxy(int x, int y) {$/;"	f
+gotoxy_putc	game.h	/^void gotoxy_putc(int x, int y, int c) {$/;"	f
+gotoxy_puts	game.h	/^void gotoxy_puts(int x, int y, char *s) {$/;"	f
+head	YZD.c	/^    int head;$/;"	m	struct:__anon1	file:
+initfootball	game.h	/^void initfootball() {$/;"	f
+main	YZD.c	/^int main(int argc, char **argv) {$/;"	f
+main	server.c	/^int main(int argc, char **argv) {$/;"	f
+main	test.c	/^int main() {$/;"	f
+mutex	YZD.c	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon1	file:
+port	YZD.c	/^int port = 0;$/;"	v
+port	server.c	/^int port = 0;$/;"	v
+print	test.c	/^void *print(void *arg) {$/;"	f
+repollfd	server.c	/^int repollfd, bepollfd;$/;"	v
+rteam	YZD.c	/^struct User *rteam;$/;"	v	typeref:struct:User
+rteam	server.c	/^struct User *rteam;$/;"	v	typeref:struct:User
+sum	YZD.c	/^    int sum;$/;"	m	struct:__anon1	file:
+tail	YZD.c	/^    int tail;$/;"	m	struct:__anon1	file:
+thread_run	YZD.c	/^void *thread_run(void *arg) {$/;"	f
+w_gotoxy_putc	game.h	/^void w_gotoxy_putc(WINDOW *win, int x, int y, int c) {$/;"	f
+w_gotoxy_puts	game.h	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f

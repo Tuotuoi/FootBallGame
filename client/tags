@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+conf	client.c	/^char *conf = ".\/football.conf";$/;"	v
+main	client.c	/^int main(int argc, char **argv) {$/;"	f
+server_ip	client.c	/^char server_ip[20] = {0};$/;"	v
+server_port	client.c	/^int server_port = 0;$/;"	v
